@@ -1,0 +1,23 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animated {
+  transition-duration: 0.25s;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 14px;
+
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid $gray;
+}
